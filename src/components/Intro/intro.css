@@ -1,0 +1,179 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden; 
+    display: flex;
+}
+
+.bg {
+    z-index: -1;
+    width: 26rem;
+    height: auto;
+    margin: auto;
+    margin-right: 2rem;
+    border-radius: 2rem;
+}
+
+.introContent {
+    height: 100vh;
+    width: 35rem;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: #008CFF;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 300;
+}
+
+/* GitHub and LinkedIn Buttons */
+
+/* Space out the button selection and bottom contents */
+.btnMenu {
+    padding: 2rem 0 0.5rem 0;
+    /*padding: 2rem 0 1rem 0;*/
+}
+
+/* Style the link as a button */
+.btnGit {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+/* Style the link as a button */
+.btnLin {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Style the button content */
+.btnContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    color: black; 
+    padding: 10px 20px;
+    border-radius: 100rem;
+    transition: background-color 0.3s ease; 
+  
+    /* Style the button content on hover */
+    &:hover {
+      background-color: #008CFF; 
+    }
+}
+
+/* Style the button image */
+.btnImg {
+    width: 30px; 
+    height: auto; 
+    margin-right: 5px; 
+}
+  
+/* Style the button text */
+.imgTxt {
+    font-size: 1rem; 
+}
+
+/* See Resume Button */
+.btnResume {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #008CFF;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+    width: 18rem;
+    text-align: center;
+
+    /* Style the button on hover */
+    &:hover {
+        background-color: #006ac0;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #intro {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .bg {
+        margin: auto;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        padding: auto;
+        width: 20rem;
+        height: auto;
+    }
+    .introContent {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .bg {
+        width: 70vw;
+    }
+    .btnMenu {
+        padding-top: 1rem;
+    }
+    .btnContent {
+        padding: 8px 16px; /* Adjust padding for smaller screens */
+    }
+    .btnImg {
+        width: 25px; /* Adjust image size for smaller screens */
+    }
+    .imgTxt {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    .btnResume {
+        width: 15.4rem;
+    }
+}
+
+@media screen and (max-width:310px) {
+    .bg {
+        margin: auto 2rem;
+        margin-bottom: 2rem;
+        width: auto;
+    }
+    .hello {
+        font-size: 10vw;
+    }
+    .introText {
+        font-size: 15vw;
+        padding: 0 1rem 0 0;
+    }
+    .introPara {
+        font-size: 5vw;
+        padding: 0 1rem 0 0;
+    }
+    .btnResume {
+        width: 7.5rem; 
+        padding: 8px 16px;
+        font-size: 14px;
+        margin-top: 0.5rem;
+    }
+}

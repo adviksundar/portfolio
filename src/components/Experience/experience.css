@@ -1,0 +1,47 @@
+#experiencePage {
+    min-height: calc(60vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experiencePageTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.clientDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.clientImgs {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clientImg {
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: 0.5rem auto;
+    padding: 0.25rem;
+    border-radius: 1rem;
+}
+
+#clients {
+    padding: 2rem;
+}
+
+@media screen and (max-width:320px) {
+    .experiencePageTitle {
+        font-size: 15vw;
+    }
+}

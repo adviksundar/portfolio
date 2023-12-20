@@ -1,0 +1,98 @@
+#contactPage {
+    min-height: calc(90vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactPageTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    max-width: 50rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.inputField {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 80);
+}
+
+.buttonField {
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 40rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  
+    /* Style the button content on hover */
+    &:hover {
+      background-color: #008CFF; 
+    }
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linkContainer {
+    margin: 0 0.75rem;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+}
+
+@media screen and (max-width:320px) {
+    .contactPageTitle {
+        font-size: 15vw;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .name, .email, .msg, .submitBtn {
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,92 @@
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;    
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;   
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 46rem;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+}
+
+.direction {
+    font-weight: 600;
+    color: rgb(121, 193, 255);
+}
+
+.worksImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+}
+
+.overlay {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0.5rem;
+}
+
+.worksImg {
+    object-fit: cover;
+    height: 15rem;
+    border-radius: 2rem;
+    display: block;
+    transition: opacity 0.5s ease;
+    border: 2px solid white;
+}
+
+.linkTxt {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-size: 1.25rem;
+}
+
+.overlay:hover .worksImg {
+    opacity: 0.7; /* Change the opacity on hover */
+}
+
+.overlay:hover .linkTxt {
+   opacity: 1; /* Show the overlay text on hover */
+}
+
+@media screen and (max-width:585px) {
+    .worksImg {
+        height: 43vw;
+    }
+    .linkTxt {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .worksTitle {
+        font-size: 15vw;
+    }
+}
