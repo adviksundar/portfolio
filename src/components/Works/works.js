@@ -69,7 +69,7 @@ const works = () => {
                 </div>
             </a>
             
-            <a href="https://github.com/adviksundar/Advik-Portfolio" target="_blank" className="overlay">
+            <a href="https://github.com/adviksundar/portfolio" target="_blank" className="overlay">
                 <div className="img">
                     <img src={AdvikPort} alt="Advik's Portfolio" className="worksImg" />
                 </div>
