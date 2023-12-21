@@ -26,7 +26,7 @@ const intro = () => {
                     </div>
                 </a>
             </div>
-            <a href="https://www.google.com/" target="_blank" className='btnResume'>
+            <a href="https://www.youtube.com/" target="_blank" className='btnResume'>
                 See my resume!
             </a>
         </div>
