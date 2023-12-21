@@ -1,6 +1,6 @@
 import React from 'react';
 import './works.css';
-import PlanetHunters from '../../images/planet-hunters.png';
+import PlanetHunters from '../../images/planet-hunters-2.jpg';
 import NLPFinance from '../../images/nlp-finance-jpeg.jpeg';
 import SkinCancer from '../../images/skin-cancer-jpeg.jpeg';
 import CarDetection from '../../images/car-detection-jpeg.jpeg';
