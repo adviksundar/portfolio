@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ae346e20.css",
-    "main.js": "/portfolio/static/js/main.16e3fb25.js",
+    "main.js": "/portfolio/static/js/main.cb4a5511.js",
     "static/media/advik-portfolio.png": "/portfolio/static/media/advik-portfolio.453387edddd88a4d2529.png",
     "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.f275316ab182211bdf20.jpg",
     "static/media/futran-moded-4.png": "/portfolio/static/media/futran-moded-4.2d60fdf1eb8a80156580.png",
@@ -11,10 +11,10 @@
     "static/media/ridgetech-solutions-white.png": "/portfolio/static/media/ridgetech-solutions-white.10d6a7c1f6d5e124f834.png",
     "index.html": "/portfolio/index.html",
     "main.ae346e20.css.map": "/portfolio/static/css/main.ae346e20.css.map",
-    "main.16e3fb25.js.map": "/portfolio/static/js/main.16e3fb25.js.map"
+    "main.cb4a5511.js.map": "/portfolio/static/js/main.cb4a5511.js.map"
   },
   "entrypoints": [
     "static/css/main.ae346e20.css",
-    "static/js/main.16e3fb25.js"
+    "static/js/main.cb4a5511.js"
   ]
 }
