@@ -63,6 +63,7 @@
     max-width: 40rem;
     cursor: pointer;
     transition: background-color 0.3s ease; 
+    color: black;
   
     /* Style the button content on hover */
     &:hover {
