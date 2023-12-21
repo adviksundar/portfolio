@@ -5,7 +5,7 @@ import NLPFinance from '../../images/nlp-finance-jpeg.jpeg';
 import SkinCancer from '../../images/skin-cancer-jpeg.jpeg';
 import CarDetection from '../../images/car-detection-jpeg.jpeg';
 import EPLSoccer from '../../images/epl-soccer-jpeg.jpg';
-import AdvikPort from '../../images/advik-portfolio.png';
+import AdvikPort from '../../images/advik-portfolio-2.png';
 
 const works = () => {
   return (

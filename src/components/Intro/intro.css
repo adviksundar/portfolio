@@ -9,7 +9,7 @@
 
 .bg {
     z-index: -1;
-    width: 26rem;
+    width: 25rem;
     height: auto;
     margin: auto;
     margin-right: 2rem;
@@ -45,8 +45,7 @@
 
 /* Space out the button selection and bottom contents */
 .btnMenu {
-    padding: 2rem 0 0.5rem 0;
-    /*padding: 2rem 0 1rem 0;*/
+    padding: 2rem 0 1rem 0;
 }
 
 /* Style the link as a button */
@@ -91,26 +90,6 @@
     font-size: 1rem; 
 }
 
-/* See Resume Button */
-.btnResume {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #008CFF;
-    color: white;
-    padding: 5px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-    margin-bottom: 1rem;
-    width: 18rem;
-    text-align: center;
-
-    /* Style the button on hover */
-    &:hover {
-        background-color: #006ac0;
-    }
-}
-
 @media screen and (max-width:900px) {
     #intro {
         flex-direction: column;
@@ -148,9 +127,6 @@
     .imgTxt {
         font-size: 14px; /* Adjust font size for smaller screens */
     }
-    .btnResume {
-        width: 15.4rem;
-    }
 }
 
 @media screen and (max-width:310px) {
@@ -169,11 +145,5 @@
     .introPara {
         font-size: 5vw;
         padding: 0 1rem 0 0;
-    }
-    .btnResume {
-        width: 7.5rem; 
-        padding: 8px 16px;
-        font-size: 14px;
-        margin-top: 0.5rem;
     }
 }

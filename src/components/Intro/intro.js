@@ -26,9 +26,6 @@ const intro = () => {
                     </div>
                 </a>
             </div>
-            <a href="https://docs.google.com/document/d/1vu1-C5iGf3STPx9b3Bju8UvNlKlI3bvU/edit?usp=sharing&ouid=101198193013213408745&rtpof=true&sd=true" target="_blank" className='btnResume'>
-                See my resume!
-            </a>
         </div>
         <img src={bg} alt="Profile" className="bg" />
     </section>
