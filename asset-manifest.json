@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.041e7ea8.css",
+    "main.css": "/portfolio/static/css/main.853f50db.css",
     "main.js": "/portfolio/static/js/main.8605fd73.js",
     "static/media/advik-portfolio-2.png": "/portfolio/static/media/advik-portfolio-2.440529268bdcaf5b57b8.png",
     "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.f275316ab182211bdf20.jpg",
@@ -11,11 +11,11 @@
     "static/media/g3-logo.png": "/portfolio/static/media/g3-logo.42d4e3faa2d9794696f0.png",
     "static/media/ridgetech-solutions-white.png": "/portfolio/static/media/ridgetech-solutions-white.10d6a7c1f6d5e124f834.png",
     "index.html": "/portfolio/index.html",
-    "main.041e7ea8.css.map": "/portfolio/static/css/main.041e7ea8.css.map",
+    "main.853f50db.css.map": "/portfolio/static/css/main.853f50db.css.map",
     "main.8605fd73.js.map": "/portfolio/static/js/main.8605fd73.js.map"
   },
   "entrypoints": [
-    "static/css/main.041e7ea8.css",
+    "static/css/main.853f50db.css",
     "static/js/main.8605fd73.js"
   ]
 }
