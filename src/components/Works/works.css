@@ -49,7 +49,8 @@
 
 .worksImg {
     object-fit: cover;
-    height: 15rem;
+    /* height: 15rem; old*/
+    width: 24rem;
     border-radius: 2rem;
     display: block;
     transition: opacity 0.5s ease;
@@ -77,16 +78,34 @@
 }
 
 @media screen and (max-width:585px) {
-    .worksImg {
-        height: 43vw;
-    }
     .linkTxt {
         font-size: 4vw;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .worksImg {
+        /* height: 43vw; at 585px*/
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .worksImg {
+        /* height: 43vw; at 585px */
+        width: 14rem;
     }
 }
 
 @media screen and (max-width:320px) {
     .worksTitle {
         font-size: 15vw;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .worksImg {
+        /* height: 43vw; at 585px */
+        width: 12rem;
     }
 }
