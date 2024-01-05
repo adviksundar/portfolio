@@ -10,9 +10,8 @@ const Experience = () => {
         <div id="clients">
             <h1 className="experiencePageTitle">Internship Experience</h1>
             <p className="clientDesc">
-                So far, I have had internships in Futran Solutions, G3 Consulting Services, and Ridgetech Solutions, 
-                all of which focus on IT consulting.
-                My internships have involved conducting quality assurance, mining and web scraping data, 
+                So far, I have had internships in Futran Solutions, G3 Consulting Services, and Ridgetech Solutions.
+                These internships have involved conducting quality assurance, mining and web scraping data, 
                 safeguarding data integrity via machine learning, testing applications across various environments, 
                 and collaborating on chatbot creation and app development via Pega and more.
             </p>
