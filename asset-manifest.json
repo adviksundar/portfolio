@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7258f5d0.css",
-    "main.js": "/portfolio/static/js/main.8605fd73.js",
+    "main.js": "/portfolio/static/js/main.836a7030.js",
     "static/media/advik-portfolio-2.png": "/portfolio/static/media/advik-portfolio-2.440529268bdcaf5b57b8.png",
     "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.f275316ab182211bdf20.jpg",
     "static/media/planet-hunters-2.jpg": "/portfolio/static/media/planet-hunters-2.a4c51404e6fede2acf66.jpg",
@@ -12,10 +12,10 @@
     "static/media/ridgetech-solutions-white.png": "/portfolio/static/media/ridgetech-solutions-white.10d6a7c1f6d5e124f834.png",
     "index.html": "/portfolio/index.html",
     "main.7258f5d0.css.map": "/portfolio/static/css/main.7258f5d0.css.map",
-    "main.8605fd73.js.map": "/portfolio/static/js/main.8605fd73.js.map"
+    "main.836a7030.js.map": "/portfolio/static/js/main.836a7030.js.map"
   },
   "entrypoints": [
     "static/css/main.7258f5d0.css",
-    "static/js/main.8605fd73.js"
+    "static/js/main.836a7030.js"
   ]
 }
