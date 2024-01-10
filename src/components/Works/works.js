@@ -15,12 +15,12 @@ const works = () => {
       <span className="worksDesc">
         I've undertaken a variety of full stack and machine learning projects,
         showcasing my skills and enthusiasm for technology. I've developed full
-        stack web applications using languages like HTML, CSS, JavaScript,
-        React, and Python. My data science projects involve leveraging tools
-        such as Tensorflow, CNNs, and Random Forest to analyze data and build
-        predictive models. Each project reflects my commitment to innovation and
-        problem-solving, blending technical proficiency with a passion for
-        creating impactful solutions.
+        stack web applications using languages/tools like HTML, CSS, JavaScript,
+        MERN stack, and Python. My data science projects involve leveraging
+        tools such as Tensorflow, CNNs, and Random Forest to analyze data and
+        build predictive models. Each project reflects my commitment to
+        innovation and problem-solving, blending technical proficiency with a
+        passion for creating impactful solutions.
         <br />
         <br />
         <span className="direction">
