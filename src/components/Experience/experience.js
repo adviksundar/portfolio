@@ -3,7 +3,7 @@ import "./experience.css";
 import Futran from "../../images/futran-moded-4.png";
 import G3 from "../../images/g3-logo.png";
 import Ridgetech from "../../images/ridgetech-solutions-white.png";
-import Enercon from "../../images/enercon_moded.png";
+import Enercon from "../../images/enercon_moded_2.png";
 
 const Experience = () => {
   return (
