@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.48fe8fc5.css",
-    "main.js": "/portfolio/static/js/main.a8b4eed1.js",
+    "main.js": "/portfolio/static/js/main.044d9949.js",
     "static/media/advik-portfolio-2.png": "/portfolio/static/media/advik-portfolio-2.440529268bdcaf5b57b8.png",
     "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.f275316ab182211bdf20.jpg",
     "static/media/planet-hunters-2.jpg": "/portfolio/static/media/planet-hunters-2.a4c51404e6fede2acf66.jpg",
     "static/media/TranquilChat.png": "/portfolio/static/media/TranquilChat.e669807ac6bef0175784.png",
     "static/media/futran-moded-4.png": "/portfolio/static/media/futran-moded-4.2d60fdf1eb8a80156580.png",
+    "static/media/enercon_moded_2.png": "/portfolio/static/media/enercon_moded_2.111349d9a10a3c128795.png",
     "static/media/epl-soccer-jpeg.jpg": "/portfolio/static/media/epl-soccer-jpeg.65d88f8fd837cdc281fe.jpg",
     "static/media/g3-logo.png": "/portfolio/static/media/g3-logo.42d4e3faa2d9794696f0.png",
-    "static/media/enercon_moded.png": "/portfolio/static/media/enercon_moded.e0f715c1257f6a245454.png",
     "static/media/ridgetech-solutions-white.png": "/portfolio/static/media/ridgetech-solutions-white.10d6a7c1f6d5e124f834.png",
     "static/media/dermetric.png": "/portfolio/static/media/dermetric.b14429235623a29691c1.png",
     "index.html": "/portfolio/index.html",
     "main.48fe8fc5.css.map": "/portfolio/static/css/main.48fe8fc5.css.map",
-    "main.a8b4eed1.js.map": "/portfolio/static/js/main.a8b4eed1.js.map"
+    "main.044d9949.js.map": "/portfolio/static/js/main.044d9949.js.map"
   },
   "entrypoints": [
     "static/css/main.48fe8fc5.css",
-    "static/js/main.a8b4eed1.js"
+    "static/js/main.044d9949.js"
   ]
 }
