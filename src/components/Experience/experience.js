@@ -3,6 +3,7 @@ import "./experience.css";
 import Futran from "../../images/futran-moded-4.png";
 import G3 from "../../images/g3-logo.png";
 import Ridgetech from "../../images/ridgetech-solutions-white.png";
+import Enercon from "../../images/enercon_moded.png";
 
 const Experience = () => {
   return (
@@ -11,7 +12,7 @@ const Experience = () => {
         <h1 className="experiencePageTitle">Internship Experience</h1>
         <p className="clientDesc">
           So far, I have had internships in Futran Solutions, G3 Consulting
-          Services, and Ridgetech Solutions. These internships have involved
+          Services, Ridgetech Solutions, and ENERCON Services, Inc. These internships have involved
           creating MERN stack applications, designing robust APIs, working with
           WebSockets, conducting quality assurance, mining and web scraping
           data, safeguarding data integrity via machine learning, testing
@@ -26,6 +27,7 @@ const Experience = () => {
             alt="Ridgetech Solutions"
             className="clientImg"
           />
+          <img src={Enercon} alt="Enercon" className="clientImg" />
         </div>
       </div>
     </section>

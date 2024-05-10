@@ -7,6 +7,7 @@ import CarDetection from "../../images/car-detection-jpeg.jpeg";
 import EPLSoccer from "../../images/epl-soccer-jpeg.jpg";
 import AdvikPort from "../../images/advik-portfolio-2.png";
 import TranquilChat from "../../images/TranquilChat.png";
+import Dermetric from "../../images/dermetric.png";
 
 const works = () => {
   return (
@@ -136,6 +137,19 @@ const works = () => {
           </div>
           <div className="linkTxt">
             <h2>TranquilChat</h2>
+          </div>
+        </a>
+
+        <a
+          href="https://github.com/CashelF/Dermetric"
+          target="_blank"
+          className="overlay"
+        >
+          <div className="img">
+            <img src={Dermetric} alt="Dermetric" className="worksImg" />
+          </div>
+          <div className="linkTxt">
+            <h2>Dermetric</h2>
           </div>
         </a>
       </div>

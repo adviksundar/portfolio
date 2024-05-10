@@ -68,6 +68,7 @@
     /* Style the button content on hover */
     &:hover {
       background-color: #008CFF; 
+      color: white;
     }
 }
 

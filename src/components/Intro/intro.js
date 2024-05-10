@@ -11,7 +11,7 @@ const intro = () => {
         <div className="introContent">
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Advik</span><br/>Data Scientist</span>
-            <p className="introPara">I am a skilled and passionate Data Scientist with experience in creating powerful, efficient data models and applications.</p>
+            <p className="introPara">I am a skilled and passionate data scientist with experience in creating powerful, efficient data models and applications.</p>
             <div className="btnMenu">
                 <a href="https://github.com/adviksundar" target="_blank" className='btnGit'>
                     <div className="btnContent">
